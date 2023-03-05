@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>NFT Landing Page</title>
+   <link rel="stylesheet" href="stye.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   <!-- todo Scroll AOS Animtaion -->
+   <!-- CSS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- JS -->
+
+</head>
+<body>
+   <!-- !Modal Sign In -->
+   <div class="modal-bg"></div>
+   <div class="modal">
+      <a href="" id="close-btn" style="padding: 0; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; font-size: 40px; color: #333; position: absolute; top: 20px; right: 20px; cursor: pointer;">&times;</a>
+      <div class="logo">
+         <img src="./images/NFT-PNG-logo.png" alt="">
+      </div>
+      <p style="font-size: 30px;">Login</p>
+      <p>Don't have store? <a href="#">Register</a></p>
+      
+      <div class="input-box">
+         <label for="e-mail">Email</label>
+         <input type="text" placeholder="example@gmail.com">
+
+         <label for="password">Password</label>
+         <input type="password" placeholder="Enter password">
+      </div>
+      <a style="font-size: 14px;" href="#">Forgot Password?</a>
+      <div class="btn">Login</div>
+      <a style="color: #000;" href="#"><i class="fa-solid fa-arrow-left"></i> Back to Homepage</a>
+   </div>
+
+
+
+
+   <!-- !background -->
+   <div class="background">
+      <div class="circle"></div>
+   </div>
+   <div class="container">
+
+      <!-- Header -->
+      <header class="navbar-container">
+         <nav class="navbar">
+            <!-- responsive menu -->
+            <div class="menu-btn">
+               <div class="bar"></div>
+            </div>
+            <a class="logo" href="#">
+               <img src="./images/NFT-PNG-logo.png" alt="">
+            </a>
+
+            <div class="nav-list">
+               <li><a href="#">Home</a></li>
+               <li><a href="#explore">Explore</a></li>
+               <li><a href="#marketplace">Marketplace</a></li>
+               <li><a href="#investor">Investor</a></li>
+               <li><a href="#news">News</a></li>
+
+               <div class="nav-list-social">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                  <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+               </div>
+               
+               <div class="owner" style="margin: 20px 0;">
+                  <p style="font-size: 12px;">follow me on</p>
+                  <h5 style="letter-spacing: 2px; font-size: 12px;">@ChAnnarak Lu</h5>
+               </div>
+            </div>
+
+            <div class="navbar-icon">
+               <a href="#">
+                  <i class="fa-solid fa-cart-shopping"></i>
+               </a>
+               <button class="btn" id="btn-buy"">Buy Now</button>
+            </div>
+         </nav>
+      </header>
+
+      <!-- Home -->
+      <section class="home" id="home">
+         <div class="home-content">
+            <h2>GATHER YOUR RARE NFT HAS ARRIVED.</h2>
+            <p>Get Started with the easiest and most secure platform to buy and trade digital <span>ART and NET's</span></p>
+            <div class="cta">
+               <button class="btn" id="connect-to-wallet-btn">Connect to a wallet</button>
+               <a href="#" class="video-btn"><i class="fa-solid fa-play"></i>Show Video</a>
+            </div>
+         </div>
+         <div class="home-image"></div>
+
+         <!-- & walllet modal -->
+         <div class="wallet-modal-bg"></div>
+            <div class="wallet">
+               <div class="w-title">
+                  <h2>Connect a wallet to continue</h2>
+                  <span class="w-close-btn">&times;</span>
+               </div>
+               <ul class="w-list">
+                  <li>
+                     <a href=""><img src="./images/fox-icon.webp" alt="">MetaMask</a>
+                  </li>
+                  <li>
+                     <a href=""><img src="./images/sequence-icon.svg" alt="">Sequence</a>
+                  </li>
+                  <li>
+                     <a href=""><img src="./images/wallet-icon.webp" alt="">WalletConnect</a>
+                  </li>
+                  <li>
+                     <a href=""><img src="./images/coinbase-icon.webp" alt="">Coinbase</a>
+                  </li>
+               </ul>
+         </div>
+      </section>
+
+      <!-- Explore -->
+      <section class="explore-container" id="explore">
+         <div class="title">
+            <h2>Choose your favorite art, if you want!</h2>
+            <p>Begin with the simplest and most secure stage to purcahse and exchange advanced workmanship and NET's</p>
+         </div>
+
+         <div class="ex-card-box">
+            <div class="ex-card-left">
+               <img src="./images/section-1-a.jpg" alt="">
+               <div class="ex-card-content">
+                  <p>Metaclubbers</p>
+                  <h2>Metaclubbers #5138</h2>
+                  <p><img class="icon" src="./images/clock-icon.png" alt="">Feb 19, 2023 at 4:07pm +6</p>
+                  <p><img class="icon" src="./images/eth-icon.webp" alt="">USD 865.25</p>
+                  <button class="btn">View Details <i class="fa-solid fa-arrow-trend-up"></i></button>
+               </div>
+            </div>
+
+            <div class="ex-card-right">
+               <div class="ex-card">
+                  <img src="./images/section-1-d.jpg" alt="">
+               </div>
+               
+               <div class="ex-card" >
+                  <img src="./images/section-1-c.jpg" alt="">
+               </div>
+            </div>
+         </div>
+
+         <div class="view-all">
+            <button class="btn">View All</button>
+         </div>
+      </section>
+
+
+      <!-- Marketplace -->
+      <section class="marketplace" id="marketplace">
+         <div class="marketplace-title title">
+            <h2>Welcome to the NFT <br> marketplace</h2>
+            <p>Welcome to the virtual world's one-stop-shop for the very best digital assets. Here you can search and buy creator's ASSETS wit h SAND to incorporate them into your LAND</p>
+         </div>
+
+         <div class="marketplace-btn">
+            <button class="outline-btn btn">Newest items</button>
+            <button class="outline-btn btn">Latest sales</button>
+            <button class="outline-btn btn">Latest listings</button>
+            <button class="outline-btn btn">Parcels and Estates</button>
+         </div>
+         <div class="marketplace-card">
+            <div class="mk-card">
+               <div class="mk-card-img">
+                  <img id="mk_card_img" src="./images/card-1.jpg" alt="">
+                  <div class="overlay">
+                     <button id="mk-card-buy-now">Buy Now</button>
+                  </div>
+               </div>
+               <div class="mk-card-content">
+                  <h2>#7297 Hand-Drown Avatar</h2>
+                  <div class="mk-icon">
+                     <span>
+                        <a href="#"><img src="./images/gift-icon.png" alt=""></a>
+                        <a href="#"><img src="./images/check-icon.png" alt=""></a>
+                     </span>
+                     <p>18 / 50</p>
+                  </div>
+                  <span class="eth">
+                     <div class="eth-rating">
+                        <img src="./images/eth-icon.webp" alt="">
+                        <h4>0.1 ETH</h4>
+                     </div>
+                     <a class="add-to-cart" href="#marketplace"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </span>
+               </div>
+            </div>
+
+            <div class="mk-card">
+               <div class="mk-card-img">
+                  <img id="mk_card_img" src="./images/card-4.jpg" alt="">
+                  <div class="overlay">
+                     <button id="mk-card-buy-now">Buy Now</button>
+                  </div>
+               </div>
+               <div class="mk-card-content">
+                  <h2>#7297 Hand-Drown Avatar</h2>
+                  <div class="mk-icon">
+                     <span>
+                        <a href="#"><img src="./images/gift-icon.png" alt=""></a>
+                        <a href="#"><img src="./images/check-icon.png" alt=""></a>
+                     </span>
+                     <p>18 / 50</p>
+                  </div>
+                  <span class="eth">
+                     <div class="eth-rating">
+                        <img src="./images/eth-icon.webp" alt="">
+                        <h4>0.1 ETH</h4>
+                     </div>
+                     <a class="add-to-cart" href="#marketplace"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </span>
+               </div>
+            </div>
+
+            <div class="mk-card">
+               <div class="mk-card-img">
+                  <img id="mk_card_img" src="./images/card-2.jpg" alt="">
+                  <div class="overlay">
+                     <button id="mk-card-buy-now">Buy Now</button>
+                  </div>
+               </div>
+               <div class="mk-card-content">
+                  <h2>#7297 Hand-Drown Avatar</h2>
+                  <div class="mk-icon">
+                     <span>
+                        <a href="#"><img src="./images/gift-icon.png" alt=""></a>
+                        <a href="#"><img src="./images/check-icon.png" alt=""></a>
+                     </span>
+                     <p>18 / 50</p>
+                  </div>
+                  <span class="eth">
+                     <div class="eth-rating">
+                        <img src="./images/eth-icon.webp" alt="">
+                        <h4>0.1 ETH</h4>
+                     </div>
+                     <a class="add-to-cart" href="#marketplace"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </span>
+               </div>
+            </div>
+
+            <div class="mk-card">
+               <div class="mk-card-img">
+                  <img id="mk_card_img" src="./images/card-3.jpg" alt="">
+                  <div class="overlay">
+                     <button id="mk-card-buy-now">Buy Now</button>
+                  </div>
+               </div>
+               <div class="mk-card-content">
+                  <h2>#7297 Hand-Drown Avatar</h2>
+                  <div class="mk-icon">
+                     <span>
+                        <a href="#"><img src="./images/gift-icon.png" alt=""></a>
+                        <a href="#"><img src="./images/check-icon.png" alt=""></a>
+                     </span>
+                     <p>18 / 50</p>
+                  </div>
+                  <span class="eth">
+                     <div class="eth-rating">
+                        <img src="/images/eth-icon.webp" alt="">
+                        <h4>0.1 ETH</h4>
+                     </div>
+                     <a class="add-to-cart" href="#marketplace"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </span>
+               </div>
+            </div>
+
+            <div class="mk-card">
+               <div class="mk-card-img">
+                  <img id="mk_card_img" src="./images/card-5.jpg" alt="">
+                  <div class="overlay">
+                     <button id="mk-card-buy-now">Buy Now</button>
+                  </div>
+               </div>
+               <div class="mk-card-content">
+                  <h2>#7297 Hand-Drown Avatar</h2>
+                  <div class="mk-icon">
+                     <span>
+                        <a href="#"><img src="./images/gift-icon.png" alt=""></a>
+                        <a href="#"><img src="./images/check-icon.png" alt=""></a>
+                     </span>
+                     <p>18 / 50</p>
+                  </div>
+                  <span class="eth">
+                     <div class="eth-rating">
+                        <img src="/images/eth-icon.webp" alt="">
+                        <h4>0.1 ETH</h4>
+                     </div>
+                     <a class="add-to-cart" href="#marketplace"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </span>
+               </div>
+            </div>
+
+            <div class="mk-card">
+               <div class="mk-card-img">
+                  <img id="mk_card_img" src="./images/card-6.jpg" alt="">
+                  <div class="overlay">
+                     <button id="mk-card-buy-now">Buy Now</button>
+                  </div>
+               </div>
+               <div class="mk-card-content">
+                  <h2>#7297 Hand-Drown Avatar</h2>
+                  <div class="mk-icon">
+                     <span>
+                        <a href="#"><img src="./images/gift-icon.png" alt=""></a>
+                        <a href="#"><img src="./images/check-icon.png" alt=""></a>
+                     </span>
+                     <p>18 / 50</p>
+                  </div>
+                  <span class="eth">
+                     <div class="eth-rating">
+                        <img src="./images/eth-icon.webp" alt="">
+                        <h4>0.1 ETH</h4>
+                     </div>
+                     <a class="add-to-cart" href="#marketplace"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </span>
+               </div>
+            </div>
+
+            <div class="mk-card">
+               <div class="mk-card-img">
+                  <img id="mk_card_img" src="./images/card-8.jpg" alt="">
+                  <div class="overlay">
+                     <button id="mk-card-buy-now">Buy Now</button>
+                  </div>
+               </div>
+               <div class="mk-card-content">
+                  <h2>#7297 Hand-Drown Avatar</h2>
+                  <div class="mk-icon">
+                     <span>
+                        <a href="#"><img src="./images/gift-icon.png" alt=""></a>
+                        <a href="#"><img src="./images/check-icon.png" alt=""></a>
+                     </span>
+                     <p>18 / 50</p>
+                  </div>
+                  <span class="eth">
+                     <div class="eth-rating">
+                        <img src="./images/eth-icon.webp" alt="">
+                        <h4>0.1 ETH</h4>
+                     </div>
+                     <a class="add-to-cart" href="#marketplace"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </span>
+               </div>
+            </div>
+
+            <div class="mk-card" >
+               <div class="mk-card-img">
+                  <img id="mk_card_img" src="./images/card-9.jpg" alt="">
+                  <div class="overlay">
+                     <button id="mk-card-buy-now">Buy Now</button>
+                  </div>
+               </div>
+               <div class="mk-card-content">
+                  <h2>#7297 Hand-Drown Avatar</h2>
+                  <div class="mk-icon">
+                     <span>
+                        <a href="#"><img src="./images/gift-icon.png" alt=""></a>
+                        <a href="#"><img src="./images/check-icon.png" alt=""></a>
+                     </span>
+                     <p>18 / 50</p>
+                  </div>
+                  <span class="eth">
+                     <div class="eth-rating">
+                        <img src="./images/eth-icon.webp" alt="">
+                        <h4>0.1 ETH</h4>
+                     </div>
+                     <a class="add-to-cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                  </span>
+               </div>
+            </div>
+         </div>
+
+         <!-- !Mk card quick view modal -->
+         
+         <div class="mk_modal_container">
+            <div class="mk_modal_bg"></div>
+            <div class="mk_modal">
+               <i class="close-modal fa-regular fa-circle-xmark"></i>
+               <div class="mk_modal_image">
+                  <img id="mk_modal_img" src="" alt="">
+                  <div class="mk_modal_img_overlay"></div>
+                  <div class="profile">
+                     <img class="user-profile" src="./images/profile-img.jpg" alt="">
+                     <p class="user-name">ChAnnarak Lu<img src="./images/verify.png" alt=""></p>
+                  </div>
+               </div>
+               
+               <div class="mk_modal_content">
+                  <h2 class="mk_modal_title">#7297 HAND-DROWN AVATAR</h2>
+                  <p class="info">This website is designed by myself including Javascipt DOM.</p>
+
+                  <div class="modal_btn">
+                     <button class="modal-btn">Connect Wallet <img src="./images/eth-icon.webp" alt=""> </button>
+                     <button class="modal-btn btn-cancel">Cancel</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Investor -->
+      <section class="investor" id="investor">
+         <div class="marketplace-title title">
+            <h2>Home to world's <br> most trusted communities</h2>
+            <p>Flow is easy to use and powerful to build with. Every aspect of the platform was designed from the ground up to dupport exceptional user experience at mainstream scale. original conceived by the teamtoday is a decentralized network supported and built on by a growing community</p>
+         </div>
+
+         <div class="inv-icon">
+            <a href="#"><img src="./images/logo-1.png" alt="" ></a>
+            <a href="#"><img src="./images/logo-2.png" alt=""></a>
+            <a href="#"><img src="./images/logo-3.png" alt=""></a>
+            <a href="#"><img src="./images/logo-4.png" alt=""></a>
+            <a href="#"><img src="./images/logo-5.avif" alt=""></a>
+            <a href="#"><img src="./images/logo-6.png" alt=""></a>
+            <a href="#"><img src="./images/logo-7.png" alt=""></a>
+         </div>
+      </section>
+
+      <!-- News -->
+      <section class="news" id="news">
+         <div class="news-title title">
+            <h2>Lastest News from VEC</h2>
+         </div>
+
+         <div class="news-card-box">
+            <div class="news-card" draggable="false">
+               <div class="card-img">
+                  <img src="./images/section-2-e.jpg" alt="">
+                  <div class="card-icon-overlay">
+                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                     <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </div>
+               </div>
+               <div class="card-content">
+                  <h2>Buying NFTs with Credit Cards Made Easy</h2>
+                  <p>Introduction The barriers to entering the NFT world keep getting leveled to encourage more participation.</p>
+                  <a href="#">Apr 01 - 15 min read</a>
+               </div>
+            </div>
+   
+            <div class="news-card" draggable="false">
+               <div class="card-img">
+                  <img src="./images/section-2-f.jpg" alt="">
+                  <div class="card-icon-overlay">
+                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                     <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </div>
+               </div>
+               <div class="card-content">
+                  <h2>Buying NFTs with Credit Cards Made Easy</h2>
+                  <p>Introduction The barriers to entering the NFT world keep getting leveled to encourage more participation.</p>
+                  <a href="#">Apr 01 - 15 min read</a>
+               </div>
+            </div>
+   
+            <div class="news-card" draggable="false">
+               <div class="card-img">
+                  <img src="./images/section-2-d.jpg" alt="">
+                  <div class="card-icon-overlay">
+                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="#"><i class="fa-solid fa-basketball"></i></a>
+                     <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </div>
+               </div>
+               <div class="card-content">
+                  <h2>Buying NFTs with Credit Cards Made Easy</h2>
+                  <p>Introduction The barriers to entering the NFT world keep getting leveled to encourage more participation.</p>
+                  <a href="#">Apr 01 - 15 min read</a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <div class="footer-container">
+         <div class="footer">
+            <div class="your-email">
+               <h2>Stay in the loop</h2>
+               <input type="text" name="text" class="input" placeholder="Your e-mail">
+            </div>
+            <ul>
+               <h2>Marketplace</h2>
+               <li><a href="#explore"></a></li>
+               <li><a href="#blog">Blog</a></li>
+               <li><a href="#">How it works</a></li>
+               <li><a href="#">Jobs</a></li>
+               <li><a href="#">Help center</a></li>
+            </ul>
+            <ul>
+               <h2>Marketplace</h2>
+               <li><a href="#explore"></a></li>
+               <li><a href="#blog">Blog</a></li>
+               <li><a href="#">How it works</a></li>
+               <li><a href="#">Jobs</a></li>
+               <li><a href="#">Help center</a></li>
+            </ul>
+            <ul>
+               <h2>Marketplace</h2>
+               <li><a href="#explore"></a></li>
+               <li><a href="#blog">Blog</a></li>
+               <li><a href="#">How it works</a></li>
+               <li><a href="#">Jobs</a></li>
+               <li><a href="#">Help center</a></li>
+            </ul>
+            <div class="download-app">
+               <h2>Download the app</h2>
+               <button class="dl-btn">
+                  <img src="./images/app-store-logo.png" alt="">
+                  App Store
+               </button>
+               <button class="dl-btn">
+                  <img src="./images/playstore-logo.webp" alt="">
+                  Google play
+               </button>
+            </div>
+         </div>
+
+         <div class="footer">
+
+         </div>
+      </div>
+      
+   </div>
+
+   <script src="main.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+    </script>
+</body>
+</html>
